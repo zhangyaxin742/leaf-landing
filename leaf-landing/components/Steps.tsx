@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Steps() {
   const items = [
     { title: "Link accounts", desc: "Securely connect with Plaid. Instant budget & spend map." },
