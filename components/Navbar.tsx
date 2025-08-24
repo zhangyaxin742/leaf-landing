@@ -1,7 +1,6 @@
 "use client";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import React from 'react';
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
@@ -13,7 +12,7 @@ export default function Navbar() {
       <nav className="mx-auto max-w-6xl px-5 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           {/* Replace with your SVG mark */}
-          <div className="h-8 w-8 rounded-lg bg-leaf-gradient" />
+          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-leaf-mint via-leaf-teal to-leaf-blue" />
           <span className="font-semibold">Leaf.io</span>
         </div>
         <div className="hidden md:flex items-center gap-6 text-leaf-text-1">

@@ -1,11 +1,9 @@
-import React from 'react';
-
 export default function Footer() {
   return (
     <footer className="border-t border-white/5 mt-20">
       <div className="mx-auto max-w-6xl px-5 py-12 grid md:grid-cols-3 gap-10">
         <div>
-          <div className="h-8 w-8 rounded-lg bg-leaf-gradient mb-3" />
+          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-leaf-mint via-leaf-teal to-leaf-blue mb-3" />
           <p className="text-leaf-text-1">Finance that feels like a game—without treating your money like one.</p>
         </div>
         <div className="flex gap-16">

@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: ["class"],
+  darkMode: "class",
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
   theme: {
     extend: {
@@ -26,10 +26,7 @@ const config: Config = {
       boxShadow: {
         glow: "0 8px 40px rgba(49,242,138,0.12)",
       },
-      backgroundImage: {
-        "leaf-gradient":
-          "linear-gradient(135deg, #31F28A 0%, #1AB6A6 55%, #1382C5 100%)",
-      },
+
     },
   },
   plugins: [],

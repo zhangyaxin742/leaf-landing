@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Features() {
   const features = [
     ["Smart Budgeting","Autocategorization + goals with helpful nudges."],

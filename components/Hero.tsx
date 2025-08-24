@@ -1,5 +1,4 @@
 "use client";
-import React from 'react';
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -46,7 +45,7 @@ export default function Hero() {
           </div>
           <div className="mt-6 flex items-center gap-3">
             {/* Replace with Lumi PNG */}
-            <div className="h-10 w-10 rounded-full bg-leaf-gradient" />
+            <div className="h-10 w-10 rounded-full bg-gradient-to-br from-leaf-mint via-leaf-teal to-leaf-blue" />
             <div className="text-sm">
               <div className="font-medium">Lumi</div>
               <div className="text-leaf-text-1">“Feed me a micro-win!”</div>

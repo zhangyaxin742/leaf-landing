@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Pricing() {
   const tiers = [
     {name:"Free", price:"$0", bullets:["Budgets","Quests","Sim portfolio"]},
